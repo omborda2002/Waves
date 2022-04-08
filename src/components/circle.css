@@ -32,6 +32,9 @@ div.main__circle {
   text-align: center;
   z-index: 1;
 }
+.circle > h1::selection {
+  background-color: transparent;
+}
 .circle > div {
   position: absolute;
   z-index: 0;

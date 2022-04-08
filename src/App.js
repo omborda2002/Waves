@@ -5,7 +5,7 @@ function App() {
   const [value, newValue] = React.useState(15);
   const [height,newHeight] = React.useState(15);
   return (
-    <div className="App">
+    <div className="App" >
       <div className="main__app">
         <h1>Max Waves : 50</h1>
         <Circle value={value} height={height} newHeight={newHeight} newValue={newValue} />
